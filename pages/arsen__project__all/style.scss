@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+@mixin Raleway ($family: Raleway ,$style : normal  ,$weight : 500 ,$size: 55px ,$height : 60px ) {
+  font-family: $family;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+}
+@mixin FamilyRaleway{
+  font-family: 'Raleway',sans-serif;
+}
+.header{
+  position: revert;
+  margin: 51px 0 130px 0 ;
+  .header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__svg1{
+    width: 15px;
+    height: 15px;
+  }
+  &__cart{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+  }
+  &__a{
+    display: flex;
+    column-gap: 45px ;
+  }
+  &__a1{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal ,400px ,15px ,21px);
+    &_active{
+      color: cornflowerblue;
+    }
+  }
+  &__phone{
+    display: flex;
+  }
+  &__h2{
+    margin: 0 67px 0  16px;
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal,400px ,15px ,140%)
+
+  }
+  &__shop{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    margin-top: 193px;
+  }
+ &__shopglav{
+   display: flex;
+   column-gap: 13px;
+ }
+  &__h3{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal,500px ,55px ,110%)
+  }
+  &__h4{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal,500px ,17px ,140%)
+  }
+  &__h5{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal,500px ,17px ,140%);
+    color:  #919191;
+  }
+
+}
+.birka__img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+  top: 55%;
+  left: 25%;
+  animation: arsen 5s infinite;
+  transition: 10s;
+}
+@keyframes arsen {
+  0%{
+    transform: rotateX(0deg);
+  }
+  25%{
+    transform: rotatey(50deg);
+
+  }
+  50%{
+    transform: rotateX(-30deg);
+
+  }
+  75%{
+    transform: rotatey(50deg);
+
+  }
+  100%{
+    transform: rotateX(0deg);
+  }
+}
+.cards{
+
+  &__btn-filter{
+    margin-left: 10px;
+    padding: 19px 65px;
+    background: white;
+    &:hover{
+      background: black;
+      color: white;
+    }
+    &_active{
+      background: black;
+      color: white;
+    }
+  }
+
+  &__card{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 181px;
+  }
+  &__card2{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 65px;
+  }
+  &__card3{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 65px;
+  }
+  &__img1{
+    height: 478px;
+    width: 350px;
+  }
+  &__card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+  }
+  &__card1:hover{
+    border: 2px solid black;
+  }
+  &__h2{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,500px ,20px ,28px);
+    margin-top: 21px;
+  }
+  &__p1{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,500px ,15px ,21px);
+    margin-top: 7px;
+  }
+  &__h3{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal,500px ,17px ,140%);
+    color:  #919191;
+    margin-top: 65px;
+  }
+  &__btn_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+    margin-bottom: 130px;
+  }
+  &__btn{
+    @include FamilyRaleway;
+    @include Raleway(Raleway ,normal,500px ,17px ,24px);
+    padding: 9px 16.5px;
+    background: transparent;
+  }
+  &__btn:hover{
+    background: black;
+    color: white;
+  }
+  &__btn_active{
+    background: black;
+    color: white;
+  }
+  &__arrow{
+    width: 21px;
+    height: 11px;
+  }
+
+}
+footer{
+  background: #F1EADC;
+}
+
+
+//@include FamilyRaleway;
+//@include Raleway(Raleway ,400px ,15px ,21px)
