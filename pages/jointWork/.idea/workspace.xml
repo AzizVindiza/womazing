@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c9b6a8d-ea24-4967-9664-8c1f04f340c9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2I5PBs9qn91GHJphX4AfRT0x4sK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\jointWork\css" />
+      <recent name="C:\Users\User\Desktop\jointWork\css\Contacts" />
+      <recent name="C:\Users\User\Desktop\jointWork\css\Cheout" />
+      <recent name="C:\Users\User\Desktop\jointWork\cssContact" />
+      <recent name="C:\Users\User\Desktop\jointWork\img\Contacts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c9b6a8d-ea24-4967-9664-8c1f04f340c9" name="Default Changelist" comment="" />
+      <created>1669468338909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669468338909</updated>
+      <workItem from="1669468341404" duration="13649000" />
+      <workItem from="1669485158701" duration="1210000" />
+      <workItem from="1669552378828" duration="6985000" />
+      <workItem from="1669629099345" duration="4485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="197" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1669632754796">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="197" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1669632754796" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1669470094063">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1669470094063" />
+    <state x="616" y="252" key="run.anything.popup" timestamp="1669631797628">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1669631797628" />
+  </component>
+</project>

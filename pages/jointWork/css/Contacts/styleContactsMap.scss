@@ -1,0 +1,51 @@
+.contactsMap{
+  margin-bottom: 130px;
+  .container{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__road{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    margin-bottom: 214px;
+    &-path{
+      display: flex;
+      align-items: center;
+      column-gap: 13px;
+      & h4{
+        color:  #919191;
+      }
+    }
+    &-txt{
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+  }
+  &__title{
+    @include text(normal,500,55px,110%,$color00);
+    letter-spacing: 0.02em;
+  }
+  &__googlemap{
+    margin-bottom: 130px;
+  }
+  &__contacts{
+    display: flex;
+    column-gap: 105px;
+    &-num,&-email,&-address{
+      display: flex;
+      flex-direction: column;
+      row-gap: 19px;
+    }
+    &-txt{
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+    &-link{
+      @include text(normal,500,20px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+  }
+}

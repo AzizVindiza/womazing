@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+:root {
+  --color00: #000;
+  --color01: #fff;
+  --color02: #00093C;
+  font-family: "Raleway", sans-serif;
+  --f-weight100: 100;
+  --f-weight200: 200;
+  --f-weight300: 300;
+  --f-weight400: 400;
+  --f-weight500: 500;
+  --f-weight600: 600;
+  --f-weight700: 700;
+  --f-weight800: 800;
+  --f-weight900: 900;
+  --f-size12: 12px;
+  --f-size14: 14px;
+  --f-size16: 16px;
+  --f-size18: 18px;
+  --f-size20: 20px;
+  --f-size36: 36px;
+  --f-height17: 17px;
+  --f-height20: 20px;
+  --f-height22: 22px;
+  --f-height24: 24px;
+  --f-height26: 26px;
+  --f-height44: 44px;
+}
+
+.Checkout .container {
+  max-width: 1110px;
+  margin: auto;
+  display: flex;
+}
+.Checkout__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  color: var(--color00);
+  letter-spacing: 0.02em;
+}
+
+/*# sourceMappingURL=styleCheckout.css.map */
