@@ -1,0 +1,705 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "title": " PATTERNED TANK TOP",
+      "price": 229,
+      "priceSale": 200,
+      "image": {
+        "white": "tshirt1/t-shirt1.jpg",
+        "yellow": "tshirt1/t-shirt1.jpg",
+        "pink": "tshirt1/pinkt-shirt1.jpg",
+        "green": "tshirt1/greent-shirt1.jpg"
+      },
+      "category": "T-short",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "pink",
+        "green"
+      ],
+      "inStock": 399
+    },
+    {
+      "id": 2,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
+      },
+      "category": "T-short",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 0
+    },
+    {
+      "id": 3,
+      "title": "T-SHIRT IN 100% COTTON WITH PRINT",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "orange": "tshirt3/t-shirt3.jpg",
+        "teal": "tshirt3/tealt-shirt3.jpg"
+      },
+      "category": "T-short",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "orange",
+        "teal"
+      ],
+      "inStock": 399
+    },
+    {
+      "id": 4,
+      "title": "100% COTTON BOXY FIT T-SHIRT",
+      "price": 290,
+      "priceSale": 200,
+      "image": {
+        "orange": "tshirt4/t-shirt4.jpg",
+        "yellow": "tshirt4/yellowt-shirt4.jpg",
+        "blue": "tshirt4/bluet-shirt4.jpg",
+        "black": "tshirt4/blackt-shirt4.jpg",
+        "khaki": "tshirt4/khakit-shirt4.jpg"
+      },
+      "category": "T-short",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "orange",
+        "yellow",
+        "blue",
+        "khaki",
+        "black"
+      ],
+      "inStock": 5
+    },
+    {
+      "id": 5,
+      "title": "TANK TOP IN VISCOSE AND LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "lightblue": "tshirt5/t-shirt5.jpg",
+        "pink": "tshirt5/pinkt-shirt5.jpg",
+        "yellow": "tshirt5/yellowt-shirt5.jpg",
+        "green": "tshirt5/greent-shirt5.jpg",
+        "orange": "tshirt5/oranget-shirt5.jpg"
+      },
+      "category": "T-short",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "lightblue",
+        "pink",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "inStock": 42
+    },
+    {
+      "id": 6,
+      "title": "LONG CHECK TRENCH COAT",
+      "price": 292,
+      "priceSale": "",
+      "image": {
+        "white": "coat1.jpg",
+        "yellow": "coat1.jpg",
+        "blue": "coat1.jpg",
+        "black": "coat1.jpg"
+      },
+      "category": "coat",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 0
+    },
+    {
+      "id": 7,
+      "title": "DUSTER COAT IN 100% COTTON",
+      "price": 279,
+      "priceSale": "",
+      "image": {
+        "white": "coat2/coat2.jpg",
+        "yellow": "coat2/coat2.jpg",
+        "blue": "coat2/coat2.jpg",
+        "black": "coat2/coat2.jpg"
+      },
+      "category": "coat",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white"
+      ],
+      "inStock": 4
+    },
+    {
+      "id": 8,
+      "title": "DUSTER COAT IN 100% COTTON",
+      "price": 256,
+      "priceSale": 199,
+      "image": {
+        "darkblue": "coat5/coat5.jpg",
+        "palevioletred": "coat5/cyclamencoat5.jpg",
+        "orangered": "coat5/orangecoat5.jpg",
+        "blue": "coat5/coat5.jpg",
+        "beige": "coat5/beigecoat5.jpg",
+        "yellow": "coat5/coat2.jpg"
+      },
+      "category": "coat",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "darkblue",
+        "palevioletred",
+        "orangered",
+        "beige",
+        "yellow"
+      ],
+      "inStock": 89
+    },
+    {
+      "id": 9,
+      "title": "COAT IN RECYCLED FABRIC",
+      "price": 329,
+      "priceSale": 200,
+      "image": {
+        "white": "coat3.jpg",
+        "yellow": "coat3.jpg",
+        "blue": "coat3.jpg",
+        "black": "coat3.jpg"
+      },
+      "category": "coat",
+      "size": [
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white"
+      ],
+      "inStock": 32
+    },
+    {
+      "id": 10,
+      "title": "DOUBLE-BREASTED TRENCH COAT IN FABRIC",
+      "price": 429,
+      "priceSale": "",
+      "image": {
+        "beige": "coat4/coat4.jpg",
+        "pink": "coat4/pinkcoat4.jpg",
+        "green": "coat4/greencoat4.jpg",
+        "black": "coat4/coat4.jpg"
+      },
+      "category": "coat",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "beige",
+        "pink",
+        "green"
+      ],
+      "inStock": 12
+    },
+    {
+      "id": 11,
+      "title": "COTTON SWEATSHIRT WITH PUFF SLEEVES",
+      "price": 29,
+      "priceSale": 200,
+      "image": {
+        "white": "sweatshirt1.jpg",
+        "yellow": "sweatshirt1.jpg",
+        "blue": "sweatshirt1.jpg",
+        "black": "sweatshirt1.jpg"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 5
+    },
+    {
+      "id": 12,
+      "title": "COTTON BLEND SWEATSHIRT",
+      "price": 229,
+      "priceSale": 200,
+      "image": {
+        "white": "sweatshirt2.jpg",
+        "yellow": "sweatshirt2.jpg",
+        "green": "sweatshirt2.jpg",
+        "blue": "sweatshirt2.jpg",
+        "black": "sweatshirt2.jpg"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "green",
+        "blue",
+        "black"
+      ],
+      "inStock": 11
+    },
+    {
+      "id": 13,
+      "title": "SWEATSHIRT WITH BOW AND PUFF SLEEVE",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "white": "sweatshirt3.jpg",
+        "yellow": "sweatshirt3.jpg",
+        "blue": "sweatshirt3.jpg",
+        "black": "sweatshirt3.jpg"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 32
+    },
+    {
+      "id": 14,
+      "title": "100% COTTON SWEATSHIRT WITH LOGO PRINT",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "snow": "hoodie3/hoodie3.jpg",
+        "white": "hoodie3/whitehoodie3.jpg",
+        "black": "hoodie3/blackhoodie3.jpg"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "snow",
+        "black"
+      ],
+      "inStock": 0
+    },
+    {
+      "id": 15,
+      "title": "BOXY SWEATSHIRT WITH MAXI POCKETS",
+      "price": 269,
+      "priceSale": 165,
+      "image": {
+        "white": "sweatshirt5.jpg",
+        "yellow": "sweatshirt5.jpg",
+        "blue": "sweatshirt5.jpg",
+        "black": "sweatshirt5.jpg"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 14
+    },
+    {
+      "id": 16,
+      "title": "3/4 SLEEVE MAXI CARDIGAN",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "white": "cardigan1/cardigan1.jpg",
+        "yellow": "cardigan1/yellowcardigan1.jpg",
+        "blue": "cardigan1/bluecardigan51jpg",
+        "black": "cardigan1/blackcardigan1.jpg",
+        "green": "cardigan1/greencardigan1.jpg"
+      },
+      "category": "cardigan",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "green",
+        "black"
+      ],
+      "inStock": 15
+    },
+    {
+      "id": 17,
+      "title": "CROSSOVER CARDIGAN WITH BOW",
+      "price": 49,
+      "priceSale": 29,
+      "image": {
+        "white": "cardigan2.jpg",
+        "yellow": "cardigan2.jpg",
+        "blue": "cardigan2.jpg",
+        "black": "cardigan2.jpg"
+      },
+      "category": "cardigan",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 2
+    },
+    {
+      "id": 18,
+      "title": "LONG JACQUARD CARDIGAN",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "pink": "cardigan3/cardigan3.jpg",
+        "teal": "cardigan3/tealcardigan3.jpg",
+        "green": "cardigan3/greencardigan3.jpg",
+        "blue": "cardigan3/bluecardigan3.jpg",
+        "black": "cardigan3/blackcardigan3.jpg"
+      },
+      "category": "cardigan",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "teal"
+      ],
+      "inStock": 16
+    },
+    {
+      "id": 19,
+      "title": "LONG PERFORATED CARDIGAN",
+      "price": 229,
+      "priceSale": 200,
+      "image": {
+        "white": "cardigan4/cardigan4.jpg",
+        "pink": "cardigan4/pinkcardigan4.jpg",
+        "blue": "cardigan4/cardigan4.jpg",
+        "black": "cardigan4/cardigan4.jpg"
+      },
+      "category": "cardigan",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "blue",
+        "pink"
+      ],
+      "inStock": 10
+    },
+    {
+      "id": 20,
+      "title": "CROPPED CARDIGAN WITH BUTTONS",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "white": "cardigan5.jpg",
+        "yellow": "cardigan5.jpg",
+        "green": "cardigan5.jpg",
+        "blue": "cardigan5.jpg",
+        "black": "cardigan5.jpg"
+      },
+      "category": "cardigan",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "green",
+        "blue",
+        "black"
+      ],
+      "inStock": 22
+    },
+    {
+      "id": 21,
+      "title": "HOODIE",
+      "price": 129,
+      "priceSale": "",
+      "image": {
+        "white": "hoodie1/hoodie1.jpg",
+        "yellow": "hoodie1/hoodie1.jpg",
+        "blue": "hoodie1/bluehoodie1.jpg",
+        "black": "hoodie1/blackhoodie1.jpg"
+      },
+      "category": "hoodie",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "blue",
+        "black"
+      ],
+      "inStock": 3
+    },
+    {
+      "id": 22,
+      "title": "HOODIE",
+      "price": 189,
+      "priceSale": "",
+      "image": {
+        "khaki": "hoodie2/hoodie2.jpg",
+        "pink": "hoodie2/pinkhoodie2.jpg",
+        "blue": "hoodie2/bluehoodie2.jpg",
+        "black": "hoodie2/blackhoodie2.jpg"
+      },
+      "category": "hoodie",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "khaki",
+        "pink",
+        "blue",
+        "black"
+      ],
+      "inStock": 18
+    },
+    {
+      "id": 23,
+      "title": "HOODIE",
+      "price": 229,
+      "priceSale": 200,
+      "image": {
+        "snow": "hoodie3/hoodie3.jpg",
+        "white": "hoodie3/whitehoodie3.jpg",
+        "black": "hoodie3/blackhoodie3.jpg"
+      },
+      "category": "hoodie",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "snow",
+        "white",
+        "black"
+      ],
+      "inStock": 12
+    },
+    {
+      "id": 24,
+      "title": "HOODIE",
+      "price": 229,
+      "priceSale": "",
+      "image": {
+        "white": "hoodie4.jpg",
+        "yellow": "hoodie4.jpg",
+        "blue": "hoodie4.jpg",
+        "black": "hoodie4.jpg"
+      },
+      "category": "hoodie",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "black"
+      ],
+      "inStock": 32
+    },
+    {
+      "id": 25,
+      "title": "HOODIE",
+      "price": 229,
+      "priceSale": 100,
+      "image": {
+        "white": "hoodie5/whitehoodie5.jpg",
+        "yellow": "hoodie5/yellowhoodie5.jpg",
+        "brown": "hoodie5/brownhoodie5.jpg",
+        "black": "hoodie5/hoodie5.jpg"
+      },
+      "category": "hoodie",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "black",
+        "white",
+        "yellow",
+        "brown"
+      ],
+      "inStock": 25
+    },
+    {
+      "id": 26,
+      "title": "HOODIE",
+      "price": 219,
+      "priceSale": 200,
+      "image": {
+        "white": "hoodie6/whitehoodie6.jpg",
+        "yellow": "hoodie6/hoodie6.jpg",
+        "blue": "hoodie6/hoodie6.jpg",
+        "black": "hoodie6/blackhoodie6.jpg"
+      },
+      "category": "hoodie",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "inStock": 62
+    },
+    {
+      "id": 27,
+      "title": "WHITE1 BOTANICAL PATTERNED SHIRT IN PURE COTTON",
+      "price": 229,
+      "image": {
+        "white": "shirt1.jpg",
+        "yellow": "yellowshirt1.jpg",
+        "green": "greenshirt1.jpg",
+        "blue": "blueshirt1.jpg",
+        "black": "blackshirt1.jpg"
+      },
+      "category": "shirts",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "yellow",
+        "green",
+        "blue",
+        "black"
+      ],
+      "inStock": 11
+    },
+    {
+      "id": 28,
+      "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
+      "price": 229,
+      "image": {
+        "white": "shirt2.jpg",
+        "red": "redshirt2.jpg",
+        "blue": "blueshirt2.jpg"
+      },
+      "category": "shirts",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "red",
+        "blue"
+      ],
+      "inStock": 22
+    }
+  ]
+}

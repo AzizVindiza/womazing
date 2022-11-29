@@ -1,0 +1,23 @@
+{
+  "name": "womazing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "json-server --watch db.json --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzizVindiza/womazing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzizVindiza/womazing/issues"
+  },
+  "homepage": "https://github.com/AzizVindiza/womazing#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
