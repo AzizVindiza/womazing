@@ -1,0 +1,44 @@
+.header{
+  background: linear-gradient(90deg, #ffffff 55% ,#F1EADC 50%);
+  .container{
+    padding: 51px 0 43px 0;
+  }
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__box{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+  }
+  &__ul{
+    display: flex;
+    column-gap: 45px;
+  }
+  &__box-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo-num{
+    margin-right: 15px;
+  }
+  &__num{
+    margin-right: 67px;
+  }
+  &__link{
+    font-family: "Bernard MT Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    &:hover{
+      color: #6E9C9F;
+    }
+  }
+
+}
