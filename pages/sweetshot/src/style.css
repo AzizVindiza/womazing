@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1600px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__container {
+  margin-top: 54px;
+  display: flex;
+}
+.header__container .nav {
+  font-family: Raleway, sans-serif;
+  margin: 0 177px 0 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.header__container .nav__list {
+  display: flex;
+  column-gap: 45px;
+}
+.header__container .nav__list .nav__link {
+  color: black;
+}
+.header__container .nav__list .nav__link:hover {
+  color: #6E9C9F;
+}
+.header__container .phone__number {
+  padding: 0 67px 0 13px;
+  color: black;
+}
+
+.sweetShot__container {
+  margin-top: 114px;
+}
+.sweetShot__container .name__sweet {
+  margin-bottom: 26px;
+}
+.sweetShot__container .name__road-text {
+  color: #919191;
+}
+.sweetShot__container .product {
+  margin-top: 102px;
+  display: flex;
+}
+.sweetShot__container .product .parameters {
+  margin-left: 100px;
+}
+.sweetShot__container .product .parameters .price__text {
+  align-items: center;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #998E78;
+  width: 187px;
+  display: flex;
+  justify-content: space-between;
+}
+.sweetShot__container .product .parameters .price__text-old {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  text-decoration-line: line-through;
+  color: #9C9C9C;
+}
+.sweetShot__container .product .parameters .size {
+  margin-top: 59px;
+}
+.sweetShot__container .product .parameters .size__text {
+  margin-bottom: 34px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.sweetShot__container .product .parameters .size__blocks {
+  column-gap: 7px;
+  display: flex;
+}
+.sweetShot__container .product .parameters .size__blocks-item {
+  width: 41px;
+  height: 41px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sweetShot__container .product .parameters .size__blocks-item:hover {
+  background: black;
+  color: white;
+}
+.sweetShot__container .product .parameters .color {
+  margin-top: 59px;
+}
+.sweetShot__container .product .parameters .color__text {
+  margin-bottom: 34px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.sweetShot__container .product .parameters .color__blocks {
+  column-gap: 10px;
+  display: flex;
+}
+.sweetShot__container .product .parameters .color__blocks-item {
+  width: 41px;
+  height: 41px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.sweetShot__container .product .parameters .color__blocks-item:hover {
+  border: 3px solid #0051ff;
+}
+.sweetShot__container .product .parameters .color__blocks .brown {
+  background: #9C9C9C;
+}
+.sweetShot__container .product .parameters .color__blocks .gray {
+  background: #D5D5D5;
+}
+.sweetShot__container .product .parameters .color__blocks .purpure {
+  background: #FD9696;
+}
+.sweetShot__container .product .parameters .color__blocks .orange {
+  background: #FDC796;
+}
+.sweetShot__container .product .parameters .basket {
+  display: flex;
+  text-align: center;
+  margin-top: 59px;
+  column-gap: 11px;
+}
+.sweetShot__container .product .parameters .basket__count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 68px;
+  border: 1px solid #AFAFAF;
+}
+.sweetShot__container .product .parameters .basket__text {
+  display: flex;
+  align-items: center;
+  background: #6E9C9F;
+  justify-content: center;
+  width: 268px;
+  height: 68px;
+  border: 1px solid #AFAFAF;
+}
+
+.path__container {
+  margin-top: 130px;
+}
+.path__container .items {
+  margin-bottom: 40px;
+}
+.path__container .items__text {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.path__container .wrapper {
+  display: flex;
+  text-align: center;
+  column-gap: 25px;
+}
+.path__container .wrapper__img1-text {
+  margin-bottom: 10px;
+}
+.path__container .wrapper__img1-price {
+  margin-top: 10px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #998E78;
+}
+
+.footer {
+  height: 363px;
+  background: #F1EADC;
+  margin-top: 130px;
+}
+.footer .footer__container {
+  padding-top: 104px;
+  display: flex;
+}
+.footer .footer__container .footer__nav {
+  margin: 0 283px 0 146px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.footer .footer__container .footer__nav .nav__list {
+  display: flex;
+  column-gap: 45px;
+}
+.footer .footer__container .footer__nav .nav__list .nav__link {
+  color: black;
+}
+.footer .footer__container .footer__nav .nav__list .nav__link:hover {
+  color: #6E9C9F;
+}
+.footer .footer__container .phone {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.footer .footer__container .phone__number {
+  display: flex;
+  justify-content: right;
+  color: black;
+}
+.footer .confidence {
+  display: flex;
+}
+.footer .confidence__text {
+  margin: 103px 188px 0 0;
+  width: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.footer .confidence__menu {
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.footer .confidence__menu a {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.footer .confidence__logo {
+  margin: 31px 0 0 553px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+/*# sourceMappingURL=style.css.map */

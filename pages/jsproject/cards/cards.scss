@@ -1,0 +1,58 @@
+.cards{
+  .container{
+    padding: 0  0 130px 0;
+  }
+  &__wrapper{
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 0  0 60px 0;
+  }
+  &__img{
+    width: 350px;
+    height: 500px;
+    margin: 0 0 20px 0;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  &__price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #998E78;
+    margin: 10px 0 0 0 ;
+  }
+  &__btn{
+    padding: 20px 50px;
+    color: rgba(110, 156, 159, 1);
+    border:2px solid rgba(110, 156, 159, 1);
+    background: transparent;
+    margin: 70px 0 0 0 ;
+    transition: 0.3s;
+    &:hover{
+      border:2px solid rgba(110, 156, 159, 1);
+      background:rgba(110, 156, 159, 1);
+      color: #FFFFFF;
+    }
+  }
+  &__wrapp-btn{
+    display: flex;
+    justify-content: center;
+  }
+}

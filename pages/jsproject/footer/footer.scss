@@ -1,0 +1,96 @@
+.footer{
+  background: rgba(241, 234, 220, 1);
+  .container{
+    padding: 104px 0 97px 0;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+  }
+  &__block{
+    display: flex;
+    column-gap: 146px;
+  }
+  &__box{
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+  }
+  &__ul{
+    display: flex;
+    column-gap: 45px;
+  }
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    row-gap:9px;
+  }
+  &__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    &:hover{
+      color: rgba(110, 156, 159, 1);
+    }
+  }
+  &__num{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  &__mail{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  &__row-2{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 188px;
+  }
+  &__picture{
+    width: 68px;
+    height: 32px;
+  }
+  &__social{
+    display: flex;
+    column-gap: 12px;
+    margin: 0 0 31px 0;
+  }
+  &__txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  &__ul-2{
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+  }
+  &__link-sec{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+ }
