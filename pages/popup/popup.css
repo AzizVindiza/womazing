@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    max-width: 1224px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.overlay{
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #00000080;
+    justify-content: center;
+    align-items: center;
+}
+.popup {
+    position: relative;
+    width: 406px;
+    background: white;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+}
+.register__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.register__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 306px;
+    height: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 2px solid rgba(78, 100, 249, 0.8);
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E2123;
+}
+.register__btn{
+    display: flex;
+    width: 306px;
+    height: 49px;
+    border: none;
+    margin: 15px 0 50px;
+    cursor: pointer;
+    background: black;
+    border-radius: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.popup__register{
+     font-style: normal;
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 20px;
+     text-align: center;
+     color: #686868;
+     margin-bottom: 50px;
+}
+.popup__register::after{
+     content: ' Создайте акканут';
+     color: #664EF9;
+ }
+
+.popup__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.popup__input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 306px;
+    height: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 2px solid rgba(78, 100, 249, 0.8);
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E2123;
+}
+.popup__btn{
+    display: flex;
+    width: 306px;
+    height: 49px;
+    border: none;
+    margin: 15px 0 50px;
+    cursor: pointer;
+    background: black;
+    border-radius: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.popup__login{
+     cursor: pointer;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 20px;
+     text-align: center;
+     color: #686868;
+}
+.popup__login::after{
+     content: " Войдите";
+     color: #664EF9;
+ }
+
+.popup__close{
+     position: absolute;
+     top: 0;
+     font-size: 30px;
+     right: -32px;
+     color: #FFFFFF;
+     cursor: pointer;
+ }
+.form__password{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    color: olivedrab;
+}
+

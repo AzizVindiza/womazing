@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./profile.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="overlay">
+    <div class="popup">
+        <form action="#" class="popup__form-login">
+        <h2 class="popup__title">Авторизация</h2>
+        <label>
+            <input class="popup__input" required placeholder="логин" type="email"/>
+        </label>
+        <label>
+            <input class="popup__input" required placeholder="Пароль" type="password"/>
+        </label>
+        <a href="" class="form__password">Забыли пароль?</a>
+        <button class="popup__btn">Войти</button>
+        <p class="popup__register">Еще нет аккаунта?</p>
+    </form>
+        <form action="#" class="popup__form-register">
+        <h2 class="register__title">Регистрация</h2>
+        <label>
+            <input class="register__input" required placeholder="Логин" type="text"/>
+        </label>
+        <label>
+            <input class="register__input" required placeholder="Электронная почта" type="text"/>
+        </label>
+        <label>
+            <input minLength="6" class="register__input" required placeholder="Пароль" type="password"/>
+        </label>
+        <a href="" class="form__password">Забыли пароль?</a>
+        <button class="register__btn">Зарегистрироваться</button>
+        <p class="popup__login">Уже есть аккаунта?</p>
+    </form>
+        <span class="popup__close">Х</span>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
