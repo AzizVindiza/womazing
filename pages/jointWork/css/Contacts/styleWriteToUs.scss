@@ -1,0 +1,60 @@
+.writeToUs{
+  margin-bottom: 130px;
+  .container{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    @include text(normal,500,25px,140%,$color00);
+    letter-spacing: 0.02em;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+  }
+  &__name,&__email,&__tel{
+    padding-left: 10px;
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-bottom:1px solid #000000;;
+    outline: none;
+    @include text(normal,500,17px,140%,$color00);
+    letter-spacing: 0.02em;
+  }
+  &__message{
+    padding-left: 10px;
+    width: 350px;
+    height: 135px;
+    border: none;
+    border-bottom:1px solid #000000;;
+    outline: none;
+    resize: none;
+    @include text(normal,500,17px,140%,$color00);
+    letter-spacing: 0.02em;
+  }
+  &__submit{
+    display: flex;
+    width: 180px;
+    height: 65px;
+    padding: 22px 50px;
+    @include text(normal,400,17px,140%,$color01);
+    background: #6E9C9F;
+  }
+  &__resolve{
+    display: none;
+    margin-top: 62px;
+    width: 437px;
+    height: 84px;
+    justify-content: center;
+    align-items: center;
+    background: #F1EADC;
+    &-txt{
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+  }
+}

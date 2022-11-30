@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style: none
+}
+button{
+  border: none
+}
+
+//variables
+:root{
+  --color00: #000;
+  --color01: #fff;
+  --color02: #00093C;
+  font-family: 'Raleway', sans-serif;
+  --f-weight100: 100;
+  --f-weight200: 200;
+  --f-weight300: 300;
+  --f-weight400: 400;
+  --f-weight500: 500;
+  --f-weight600: 600;
+  --f-weight700: 700;
+  --f-weight800: 800;
+  --f-weight900: 900;
+  --f-size12: 12px;
+  --f-size14: 14px;
+  --f-size16: 16px;
+  --f-size18: 18px;
+  --f-size20: 20px;
+  --f-size36: 36px;
+  --f-height17: 17px;
+  --f-height20: 20px;
+  --f-height22: 22px;
+  --f-height24: 24px;
+  --f-height26: 26px;
+  --f-height44: 44px;
+}
+
+
+$color00: var(--color00);
+$color01: var(--color01);
+$color02: var(--color02);
+$f-weight100: var(--f-weight100);
+$f-weight200: var(--f-weight200);
+$f-weight300: var(--f-weight300);
+$f-weight400: var(--f-weight400);
+$f-weight500: var(--f-weight500);
+$f-weight600: var(--f-weight600);
+$f-weight700: var(--f-weight700);
+$f-weight800: var(--f-weight800);
+$f-weight900: var(--f-weight900);
+$f-size12 : var(--f-size12);
+$f-size14 : var(--f-size14);
+$f-size16 : var(--f-size16);
+$f-size18 : var(--f-size18);
+$f-size20 : var(--f-size20);
+$f-size36 : var(--f-size36);
+$f-height17: var(--f-height17);
+$f-height20: var(--f-height20);
+$f-height22: var(--f-height22);
+$f-height24: var(--f-height24);
+$f-height26: var(--f-height26);
+$f-height44: var(--f-height44);
+
+//mixins
+@mixin text($style : normal,$f-weight,$f-size,$f-height,$f-color){
+  font-style: $style;
+  font-weight: $f-weight;
+  font-size: $f-size;
+  line-height: $f-height;
+  color: $f-color;
+}
+@mixin center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+@import "Contacts/styleContactsHeader";
+@import "Contacts/styleContactsMap";
+@import "Contacts/styleWriteToUs.css";
+@import "Contacts/styleFooter";
+
+@import "Checkout/styleCheckout";

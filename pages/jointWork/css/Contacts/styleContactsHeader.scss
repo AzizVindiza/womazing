@@ -1,0 +1,37 @@
+.header{
+  margin-bottom: 190px;
+  .container{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+  .header__logo{
+    margin-right: 146px;
+  }
+  .header__nav{
+    display: flex;
+    column-gap: 45px;
+    margin-right: 170px;
+    &-txt{
+      @include text(normal,400,15px,140%,$color00);
+      letter-spacing: 0.02em;
+      &:last-child{
+        @include text(normal,700,15px,140%,$color00);
+        color: #6E9C9F;
+      }
+    }
+  }
+  .header__phone{
+   margin-right: 67px;
+    &-num{
+      display: flex;
+      column-gap: 15px;
+      h2{
+        @include text(normal,400,15px,140%,$color00);
+        letter-spacing: 0.02em;
+      }
+    }
+  }
+}

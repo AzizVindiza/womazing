@@ -1,0 +1,146 @@
+.Checkout{
+  margin-bottom: 130px;
+  .container{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+   display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    margin-bottom: 214px;
+    &-txt{
+      @include text(normal,500,55px,110%,$color00);
+      letter-spacing: 0.02em;
+    }
+  }
+  &__block{
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    &-txt1{
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+    &-txt2{
+      @include text(normal,500,17px,140%,#919191);
+      letter-spacing: 0.02em;
+    }
+  }
+  &__block1{
+    display: flex;
+    column-gap: 313px;
+    margin-bottom: 65px;
+  }
+  &__BuyerData{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    &-txt{
+      @include text(normal,500,25px,140%,$color00);
+      letter-spacing: 0.02em;
+      margin-bottom: 35px;
+     margin-left: 10px;
+    }
+    &-name,&-email,&-tel{
+      padding-left: 10px;
+      width: 350px;
+      height: 45px;
+      border: none;
+      border-bottom:1px solid #000000;;
+      outline: none;
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+  }
+  &__yourOrder{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    &__title{
+      @include text(normal,500,25px,140%,$color00);
+      letter-spacing: 0.02em;
+      padding-left: 18px;
+    }
+    &__table{
+      th, td{
+        padding: 15px 150px 15px 18px;
+      }
+    }
+    tfoot{
+      background: #F1EADC;
+    }
+  }
+  &__block2{
+    display: flex;
+    column-gap: 313px;
+    margin-bottom: 82px;
+  }
+  &__addressOfTheRecipient{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    &-txt{
+      @include text(normal,500,25px,140%,$color00);
+      letter-spacing: 0.02em;
+      margin-bottom: 35px;
+      margin-left: 10px;
+    }
+    &__country,&__city,&__street,&__house,&__flat{
+      padding-left: 10px;
+      width: 350px;
+      height: 45px;
+      border: none;
+      border-bottom:1px solid #000000;;
+      outline: none;
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+  }
+  &__paymentMethods{
+    display: flex;
+    flex-direction: column;
+    row-gap: 47px;
+    &__title{
+      @include text(normal,500,25px,140%,$color00);
+      letter-spacing: 0.02em;
+    }
+    &-label{
+      @include text(normal,500,17px,140%,$color00);
+      letter-spacing: 0.02em;
+      display: flex;
+      column-gap: 10px;
+      input{
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &-btn{
+      display: flex;
+      padding: 22px 50px;
+      @include text(normal,400,17px,140%,$color01);
+      letter-spacing: 0.02em;
+      background: #6E9C9F;
+    }
+  }
+  &__comment{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    &-form{
+     textarea{
+       padding-left: 10px;
+       width: 350px;
+       height: 135px;
+       border: none;
+       border-bottom:1px solid #000000;;
+       outline: none;
+       resize: none;
+       @include text(normal,500,17px,140%,$color00);
+       letter-spacing: 0.02em;
+     }
+    }
+  }
+}

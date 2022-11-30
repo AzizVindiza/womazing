@@ -152,12 +152,36 @@ a {
   background: black;
   color: white;
 }
+<<<<<<< HEAD
 .cards__row__img {
   height: 200px;
   width: 300px;
 }
 .cards__row__card {
   display: flex;
+=======
+.cards__card {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 181px;
+}
+.cards__card2 {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 65px;
+}
+.cards__card3 {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 65px;
+}
+.cards__img1 {
+  height: 478px;
+  width: 350px;
+}
+.cards__card1 {
+  display: flex;
+>>>>>>> d5e1f12a2a44c771d44b4d3092efe85be40f85f9
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -196,7 +220,11 @@ a {
   color: #919191;
   margin-top: 65px;
 }
+<<<<<<< HEAD
 .cards__row__btn_list {
+=======
+.cards__btn_list {
+>>>>>>> d5e1f12a2a44c771d44b4d3092efe85be40f85f9
   display: flex;
   justify-content: center;
   align-items: center;
