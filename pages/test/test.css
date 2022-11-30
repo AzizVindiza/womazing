@@ -1,0 +1,14 @@
+.tabs__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+}
+.card img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=test.css.map */

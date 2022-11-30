@@ -26,3 +26,34 @@ aActive.forEach((el) => {
   el.classList.add('header__a1_active')
  })
 })
+
+
+let category = ""
+let rowInner = (arg) =>{
+ let row = document.querySelector(".cards__row")
+ row.innerHTML = ""
+ fetch(`http://localhost:8080/clothes${arg.length ? "?category=" + arg : ""}`)
+     .then(res => res.json())
+     .then(res=>{
+      res.forEach((item) =>{
+       row.innerHTML += `
+   <div class="cards__row__card">
+      <img class="cards__row__img" src="/Shop/${item.image.white}" alt="">
+      <h2 class="cards__row__h">${item.title}</h2>
+      <p class="cards__row__p">${item.price}$</p>
+   </div>
+  `
+      })
+
+     })
+}
+
+rowInner(category)
+
+let btnCategory = document.querySelectorAll(".cards__btn-filter")
+btnCategory.forEach((item) =>{
+ item.addEventListener("click", (e)=>{
+  category = `${e.target.textContent}`
+  rowInner(category)
+ })
+})

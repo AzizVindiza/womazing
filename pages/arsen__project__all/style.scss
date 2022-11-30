@@ -7,6 +7,9 @@
 li{
   list-style: none;
 }
+img{
+  width: 100%;
+}
 a{
   text-decoration: none;
 }
@@ -69,10 +72,10 @@ a{
     row-gap: 26px;
     margin-top: 193px;
   }
- &__shopglav{
-   display: flex;
-   column-gap: 13px;
- }
+  &__shopglav{
+    display: flex;
+    column-gap: 13px;
+  }
   &__h3{
     @include FamilyRaleway;
     @include Raleway(Raleway ,normal,500px ,55px ,110%)
@@ -118,7 +121,12 @@ a{
     transform: rotateX(0deg);
   }
 }
-.cards{
+.cards__row{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 181px;
 
   &__btn-filter{
     margin-left: 10px;
@@ -134,41 +142,28 @@ a{
     }
   }
 
+  &__img{
+    height: 200px;
+    width: 300px;
+  }
   &__card{
-    display: flex;
-    column-gap: 30px;
-    margin-top: 181px;
-  }
-  &__card2{
-    display: flex;
-    column-gap: 30px;
-    margin-top: 65px;
-  }
-  &__card3{
-    display: flex;
-    column-gap: 30px;
-    margin-top: 65px;
-  }
-  &__img1{
-    height: 478px;
-    width: 350px;
-  }
-  &__card1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid transparent;
+    width: 300px;
+    height: 400px;
   }
-  &__card1:hover{
+  &__card:hover{
     border: 2px solid black;
   }
-  &__h2{
+  &__h{
     @include FamilyRaleway;
     @include Raleway(Raleway ,500px ,20px ,28px);
     margin-top: 21px;
   }
-  &__p1{
+  &__p{
     @include FamilyRaleway;
     @include Raleway(Raleway ,500px ,15px ,21px);
     margin-top: 7px;

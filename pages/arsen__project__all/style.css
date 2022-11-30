@@ -2,12 +2,15 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 li {
   list-style: none;
+}
+
+img {
+  width: 100%;
 }
 
 a {
@@ -24,15 +27,9 @@ a {
   margin: 51px 0 130px 0;
 }
 .header .header__top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__svg1 {
   width: 15px;
@@ -41,20 +38,12 @@ a {
 .header__cart {
   width: 24px;
   height: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .header__a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 45px;
-     -moz-column-gap: 45px;
-          column-gap: 45px;
+  column-gap: 45px;
 }
 .header__a1 {
   font-family: "Raleway", sans-serif;
@@ -68,8 +57,6 @@ a {
   color: cornflowerblue;
 }
 .header__phone {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .header__h2 {
@@ -82,23 +69,14 @@ a {
   line-height: 140%;
 }
 .header__shop {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   row-gap: 26px;
   margin-top: 193px;
 }
 .header__shopglav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 13px;
-     -moz-column-gap: 13px;
-          column-gap: 13px;
+  column-gap: 13px;
 }
 .header__h3 {
   font-family: "Raleway", sans-serif;
@@ -133,121 +111,64 @@ a {
   z-index: 10;
   top: 55%;
   left: 25%;
-  -webkit-animation: arsen 5s infinite;
-          animation: arsen 5s infinite;
-  -webkit-transition: 10s;
+  animation: arsen 5s infinite;
   transition: 10s;
-}
-
-@-webkit-keyframes arsen {
-  0% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-  }
-  25% {
-    -webkit-transform: rotatey(50deg);
-            transform: rotatey(50deg);
-  }
-  50% {
-    -webkit-transform: rotateX(-30deg);
-            transform: rotateX(-30deg);
-  }
-  75% {
-    -webkit-transform: rotatey(50deg);
-            transform: rotatey(50deg);
-  }
-  100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-  }
 }
 
 @keyframes arsen {
   0% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
   }
   25% {
-    -webkit-transform: rotatey(50deg);
-            transform: rotatey(50deg);
+    transform: rotatey(50deg);
   }
   50% {
-    -webkit-transform: rotateX(-30deg);
-            transform: rotateX(-30deg);
+    transform: rotateX(-30deg);
   }
   75% {
-    -webkit-transform: rotatey(50deg);
-            transform: rotatey(50deg);
+    transform: rotatey(50deg);
   }
   100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
   }
 }
-.cards__btn-filter {
+.cards__row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 181px;
+}
+.cards__row__btn-filter {
   margin-left: 10px;
   padding: 19px 65px;
   background: white;
 }
-.cards__btn-filter:hover {
+.cards__row__btn-filter:hover {
   background: black;
   color: white;
 }
-.cards__btn-filter_active {
+.cards__row__btn-filter_active {
   background: black;
   color: white;
 }
-.cards__card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
-  margin-top: 181px;
+.cards__row__img {
+  height: 200px;
+  width: 300px;
 }
-.cards__card2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.cards__row__card {
   display: flex;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
-  margin-top: 65px;
-}
-.cards__card3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
-  margin-top: 65px;
-}
-.cards__img1 {
-  height: 478px;
-  width: 350px;
-}
-.cards__card1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 2px solid transparent;
+  width: 300px;
+  height: 400px;
 }
-.cards__card1:hover {
+.cards__row__card:hover {
   border: 2px solid black;
 }
-.cards__h2 {
+.cards__row__h {
   font-family: "Raleway", sans-serif;
   font-family: Raleway;
   font-style: 500px;
@@ -256,7 +177,7 @@ a {
   line-height: 60px;
   margin-top: 21px;
 }
-.cards__p1 {
+.cards__row__p {
   font-family: "Raleway", sans-serif;
   font-family: Raleway;
   font-style: 500px;
@@ -265,7 +186,7 @@ a {
   line-height: 60px;
   margin-top: 7px;
 }
-.cards__h3 {
+.cards__row__h3 {
   font-family: "Raleway", sans-serif;
   font-family: Raleway;
   font-style: normal;
@@ -275,22 +196,14 @@ a {
   color: #919191;
   margin-top: 65px;
 }
-.cards__btn_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.cards__row__btn_list {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 14px;
-     -moz-column-gap: 14px;
-          column-gap: 14px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 14px;
   margin-bottom: 130px;
 }
-.cards__btn {
+.cards__row__btn {
   font-family: "Raleway", sans-serif;
   font-family: Raleway;
   font-style: normal;
@@ -300,15 +213,15 @@ a {
   padding: 9px 16.5px;
   background: transparent;
 }
-.cards__btn:hover {
+.cards__row__btn:hover {
   background: black;
   color: white;
 }
-.cards__btn_active {
+.cards__row__btn_active {
   background: black;
   color: white;
 }
-.cards__arrow {
+.cards__row__arrow {
   width: 21px;
   height: 11px;
 }
@@ -316,3 +229,5 @@ a {
 footer {
   background: #F1EADC;
 }
+
+/*# sourceMappingURL=style.css.map */
