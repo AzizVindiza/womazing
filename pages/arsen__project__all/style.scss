@@ -127,6 +127,9 @@ a{
   column-gap: 30px;
   row-gap: 30px;
   margin-top: 181px;
+  &__a{
+    color: black;
+  }
 
   &__btn-filter{
     margin-left: 10px;

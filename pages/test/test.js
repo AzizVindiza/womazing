@@ -58,10 +58,13 @@ let getCard = (arg) =>{
                 tabsContent.innerHTML += `
           <div class="card">
              <img src="/Shop/${obj.image.white}" alt="">
-             <h2>${obj.category}</h2>
+             <h2>${obj.title}</h2>
+             <h2>${obj.price}<span>$</span></h2>
+             <button class="buy-btn" data-id=${obj.id} data-price=${obj.price} data-title=${obj.title}>купить</button>
           </div>
           `
             })
+            buyBtn()
         })
 }
 function getCategory(){
@@ -71,12 +74,72 @@ function getCategory(){
         item.addEventListener('click',(e)=>{
             category = e.target.textContent
             getCard(category)
+
         })
 
+    })
+
+}
+function buyBtn (){
+    let buyBtn = document.querySelectorAll(".buy-btn")
+    buyBtn.forEach(btn=>{
+        btn.addEventListener("click",(e)=>{
+            // fetch(db+ `?id=${btn.dataset.id}`)
+            localStorage.setItem(`${btn.dataset.id}`, `${btn.dataset.title} , ${btn.dataset.price}`)
+        })
     })
 }
 
 
 getTabsBtn()
+
+let searchCloth = () =>{
+    let searchInput = document.querySelector(".search__input")
+    searchInput.addEventListener("input",(e)=>{
+        let tabsContent = document.querySelector(".tabs__content")
+        let searchGoods = document.querySelector(".search__goods")
+        fetch(db)
+            .then(res=>res.json())
+            .then(res => {
+                searchGoods.innerHTML = ""
+                tabsContent.innerHTML = ""
+                res.forEach((item) => {
+
+               item.title.toUpperCase().startsWith(e.target.value.toUpperCase()) && e.target.value !== ""
+                   ?
+                   searchGoods.innerHTML +=
+                       `<li>${item.title}</li>
+                       `
+                   :
+                   searchGoods
+
+
+                    item.title.toUpperCase().startsWith(e.target.value.toUpperCase()) && e.target.value !== ""?
+                    tabsContent.innerHTML += `
+                     <div class="card">
+                    <img src="/Shop/${item.image.white}" alt="">
+                      </div>
+                    ` : searchGoods
+                })
+            })
+
+    })
+}
+searchCloth()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

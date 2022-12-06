@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 400px;
+}
+
 body {
   max-width: 1600px;
 }

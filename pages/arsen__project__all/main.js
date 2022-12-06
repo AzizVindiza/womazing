@@ -37,14 +37,14 @@ let rowInner = (arg) =>{
      .then(res=>{
       res.forEach((item) =>{
        row.innerHTML += `
-   <div class="cards__row__card">
+   <a href="../sweetshot/index.html#${item.id}" class="cards__row__a"><div class="cards__row__card">
       <img class="cards__row__img" src="/Shop/${item.image.white}" alt="">
       <h2 class="cards__row__h">${item.title}</h2>
       <p class="cards__row__p">${item.price}$</p>
-   </div>
+   </div><a/>
   `
       })
-
+      // linkProduct()
      })
 }
 
@@ -57,3 +57,8 @@ btnCategory.forEach((item) =>{
   rowInner(category)
  })
 })
+// let linkProduct = () =>{
+//  let links = document.querySelectorAll('.cards__row__a')
+//  links.forEach((item)
+//
+// }
