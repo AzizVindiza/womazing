@@ -91,45 +91,16 @@ a{
   }
 
 }
-.birka__img{
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  z-index: 10;
-  top: 55%;
-  left: 25%;
-  animation: arsen 5s infinite;
-  transition: 10s;
-}
-@keyframes arsen {
-  0%{
-    transform: rotateX(0deg);
-  }
-  25%{
-    transform: rotatey(50deg);
-
-  }
-  50%{
-    transform: rotateX(-30deg);
-
-  }
-  75%{
-    transform: rotatey(50deg);
-
-  }
-  100%{
-    transform: rotateX(0deg);
-  }
-}
 .cards__row{
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
   margin-top: 181px;
-
   &__btn-filter{
-    margin-left: 10px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
     padding: 19px 65px;
     background: white;
     &:hover{
@@ -141,22 +112,29 @@ a{
       color: white;
     }
   }
-
-  &__img{
-    height: 200px;
-    width: 300px;
-  }
-  &__card{
+  .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid transparent;
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    &__img{
+      object-fit: cover;
+      height: 478px;
+      width: 348px;
+      transition: transform 2s;
+
+      &:hover{
+        transform: scale(1.1);
+      }
   }
-  &__card:hover{
-    border: 2px solid black;
+    &:hover{
+
+      border: 2px solid black;
+    }
+
   }
   &__h{
     @include FamilyRaleway;
@@ -166,20 +144,15 @@ a{
   &__p{
     @include FamilyRaleway;
     @include Raleway(Raleway ,500px ,15px ,21px);
+    color: #998E78;
     margin-top: 7px;
-  }
-  &__h3{
-    @include FamilyRaleway;
-    @include Raleway(Raleway ,normal,500px ,17px ,140%);
-    color:  #919191;
-    margin-top: 65px;
   }
   &__btn_list{
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 14px;
-    margin-bottom: 130px;
+    margin-top: 154px;
   }
   &__btn{
     @include FamilyRaleway;
@@ -199,7 +172,10 @@ a{
     width: 21px;
     height: 11px;
   }
+  &__a{
 
+    color: black;
+  }
 }
 footer{
   background: #F1EADC;

@@ -104,34 +104,6 @@ a {
   color: #919191;
 }
 
-.birka__img {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  z-index: 10;
-  top: 55%;
-  left: 25%;
-  animation: arsen 5s infinite;
-  transition: 10s;
-}
-
-@keyframes arsen {
-  0% {
-    transform: rotateX(0deg);
-  }
-  25% {
-    transform: rotatey(50deg);
-  }
-  50% {
-    transform: rotateX(-30deg);
-  }
-  75% {
-    transform: rotatey(50deg);
-  }
-  100% {
-    transform: rotateX(0deg);
-  }
-}
 .cards__row {
   display: flex;
   flex-wrap: wrap;
@@ -140,7 +112,9 @@ a {
   margin-top: 181px;
 }
 .cards__row__btn-filter {
-  margin-left: 10px;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
   padding: 19px 65px;
   background: white;
 }
@@ -152,44 +126,25 @@ a {
   background: black;
   color: white;
 }
-<<<<<<< HEAD
-.cards__row__img {
-  height: 200px;
-  width: 300px;
-}
-.cards__row__card {
+.cards__row .card {
   display: flex;
-=======
-.cards__card {
-  display: flex;
-  column-gap: 30px;
-  margin-top: 181px;
-}
-.cards__card2 {
-  display: flex;
-  column-gap: 30px;
-  margin-top: 65px;
-}
-.cards__card3 {
-  display: flex;
-  column-gap: 30px;
-  margin-top: 65px;
-}
-.cards__img1 {
-  height: 478px;
-  width: 350px;
-}
-.cards__card1 {
-  display: flex;
->>>>>>> d5e1f12a2a44c771d44b4d3092efe85be40f85f9
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 2px solid transparent;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  overflow: hidden;
 }
-.cards__row__card:hover {
+.cards__row .card__img {
+  object-fit: cover;
+  height: 478px;
+  width: 348px;
+  transition: transform 2s;
+}
+.cards__row .card__img:hover {
+  transform: scale(1.1);
+}
+.cards__row .card:hover {
   border: 2px solid black;
 }
 .cards__row__h {
@@ -208,28 +163,15 @@ a {
   font-weight: 15px;
   font-size: 21px;
   line-height: 60px;
+  color: #998E78;
   margin-top: 7px;
 }
-.cards__row__h3 {
-  font-family: "Raleway", sans-serif;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 17px;
-  line-height: 140%;
-  color: #919191;
-  margin-top: 65px;
-}
-<<<<<<< HEAD
 .cards__row__btn_list {
-=======
-.cards__btn_list {
->>>>>>> d5e1f12a2a44c771d44b4d3092efe85be40f85f9
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 14px;
-  margin-bottom: 130px;
+  margin-top: 154px;
 }
 .cards__row__btn {
   font-family: "Raleway", sans-serif;
@@ -252,6 +194,9 @@ a {
 .cards__row__arrow {
   width: 21px;
   height: 11px;
+}
+.cards__row__a {
+  color: black;
 }
 
 footer {
