@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div>
+    btn создать новый товар
+    Товар 1 btn удалить btn изменить
+    Товар 2
+    Товар 3
+</div>
+<form class="form">
+    <h2 class="form__title">Создание товара</h2>
+    <input class="form__inputTitle" name="title" type="text" placeholder="Наименование товара" required>
+    <input class="form__inputPrice" name="price" type="text" placeholder="Цена товара" required pattern="\d+">
+    <button class="form__btn" type="submit">Создать</button>
+</form>
+<table class="goods">
+    <thead>
+    <tr>
+        <th class="title">Имя</th>
+        <th class="price">Цена</th>
+        <th class="id">ID</th>
+    </tr>
+    </thead>
+    <tbody class="tBody">
+
+    </tbody>
+</table>
+<div class="popup" style="
+position: absolute;
+width: 400px;
+height: 400px;
+align-items: center;
+justify-content: center;
+top: 100px;
+right: 100px;
+background: pink;
+display: none;
+">
+    <form class="popup-form">
+        <h2 class="popup-form__title">Изменение товара</h2>
+        <input class="popup-form__inputTitle" value="" name="title" type="text" placeholder="Наименование товара" required>
+        <input class="popup-form__inputPrice" value="" name="price" type="text" placeholder="Цена товара" required pattern="\d+">
+        <button class="popup-form__btn" type="submit">Изменить</button>
+    </form>
+</div>
+
+<script src="./adminPanel.js"></script>
+</body>
+</html>
