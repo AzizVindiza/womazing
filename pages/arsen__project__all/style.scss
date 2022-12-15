@@ -97,13 +97,6 @@ a{
   column-gap: 30px;
   row-gap: 30px;
   margin-top: 181px;
-<<<<<<< HEAD
-  &__a{
-    color: black;
-  }
-
-=======
->>>>>>> 8507f10b8db1b7ad4b32b0ca8136f947dc876ac9
   &__btn-filter{
     flex-wrap: wrap;
     column-gap: 10px;
@@ -136,7 +129,7 @@ a{
       &:hover{
         transform: scale(1.1);
       }
-  }
+    }
     &:hover{
 
       border: 2px solid black;
@@ -154,27 +147,7 @@ a{
     color: #998E78;
     margin-top: 7px;
   }
-  &__btn_list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 14px;
-    margin-top: 154px;
-  }
-  &__btn{
-    @include FamilyRaleway;
-    @include Raleway(Raleway ,normal,500px ,17px ,24px);
-    padding: 9px 16.5px;
-    background: transparent;
-  }
-  &__btn:hover{
-    background: black;
-    color: white;
-  }
-  &__btn_active{
-    background: black;
-    color: white;
-  }
+
   &__arrow{
     width: 21px;
     height: 11px;
@@ -186,6 +159,27 @@ a{
 }
 footer{
   background: #F1EADC;
+}
+.cards__pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 14px;
+  margin-top: 154px;
+}
+.cards__page{
+  @include FamilyRaleway;
+  @include Raleway(Raleway ,normal,500px ,17px ,24px);
+  padding: 9px 16.5px;
+  background: transparent;
+  &:hover{
+    background: black;
+    color: white;
+  }
+  &_active{
+    background: black;
+    color: white;
+  }
 }
 
 

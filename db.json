@@ -26,31 +26,6 @@
       "inStock": 399
     },
     {
-      "id": 2,
-      "title": "SHORT SLEEVE POLO WITH LUREX",
-      "price": 29,
-      "priceSale": "",
-      "image": {
-        "white": "t-shirt2.jpg",
-        "yellow": "t-shirt2.jpg",
-        "blue": "t-shirt2.jpg",
-        "black": "t-shirt2.jpg"
-      },
-      "category": "T-short",
-      "size": [
-        "s",
-        "m",
-        "xl"
-      ],
-      "colors": [
-        "white",
-        "yellow",
-        "blue",
-        "black"
-      ],
-      "inStock": 0
-    },
-    {
       "id": 3,
       "title": "T-SHIRT IN 100% COTTON WITH PRINT",
       "price": 229,
@@ -100,34 +75,6 @@
       "inStock": 5
     },
     {
-      "id": 5,
-      "title": "TANK TOP IN VISCOSE AND LUREX",
-      "price": 29,
-      "priceSale": "",
-      "image": {
-        "lightblue": "tshirt5/t-shirt5.jpg",
-        "pink": "tshirt5/pinkt-shirt5.jpg",
-        "yellow": "tshirt5/yellowt-shirt5.jpg",
-        "green": "tshirt5/greent-shirt5.jpg",
-        "orange": "tshirt5/oranget-shirt5.jpg"
-      },
-      "category": "T-short",
-      "size": [
-        "s",
-        "m",
-        "l",
-        "xl"
-      ],
-      "colors": [
-        "lightblue",
-        "pink",
-        "yellow",
-        "green",
-        "orange"
-      ],
-      "inStock": 42
-    },
-    {
       "id": 6,
       "title": "LONG CHECK TRENCH COAT",
       "price": 292,
@@ -174,34 +121,6 @@
         "white"
       ],
       "inStock": 4
-    },
-    {
-      "id": 8,
-      "title": "DUSTER COAT IN 100% COTTON",
-      "price": 256,
-      "priceSale": 199,
-      "image": {
-        "darkblue": "coat5/coat5.jpg",
-        "palevioletred": "coat5/cyclamencoat5.jpg",
-        "orangered": "coat5/orangecoat5.jpg",
-        "blue": "coat5/coat5.jpg",
-        "beige": "coat5/beigecoat5.jpg",
-        "yellow": "coat5/coat2.jpg"
-      },
-      "category": "coat",
-      "size": [
-        "s",
-        "m",
-        "xl"
-      ],
-      "colors": [
-        "darkblue",
-        "palevioletred",
-        "orangered",
-        "beige",
-        "yellow"
-      ],
-      "inStock": 89
     },
     {
       "id": 9,
@@ -651,55 +570,152 @@
         "white"
       ],
       "inStock": 62
+    }
+  ],
+  "message": [
+    {
+      "name": "35",
+      "email": "34@23",
+      "num": "123",
+      "id": 1
     },
     {
-      "id": 27,
-      "title": "WHITE1 BOTANICAL PATTERNED SHIRT IN PURE COTTON",
-      "price": 229,
-      "image": {
-        "white": "shirt1.jpg",
-        "yellow": "yellowshirt1.jpg",
-        "green": "greenshirt1.jpg",
-        "blue": "blueshirt1.jpg",
-        "black": "blackshirt1.jpg"
-      },
-      "category": "shirts",
-      "size": [
-        "s",
-        "m",
-        "l",
-        "xl"
-      ],
-      "colors": [
-        "white",
-        "yellow",
-        "green",
-        "blue",
-        "black"
-      ],
-      "inStock": 11
+      "name": "344",
+      "email": "34@23",
+      "num": "23",
+      "id": 2
     },
     {
-      "id": 28,
-      "title": "SHIRT WITH ASYMMETRICAL BOTTOM",
-      "price": 229,
+      "name": "23",
+      "email": "23@23",
+      "num": "23",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "id-item": 2,
+      "size": "s",
+      "colors": "yellow",
+      "id": 1
+    },
+    {
+      "id-item": 2,
+      "size": "s",
+      "colors": "blue",
+      "id": 2
+    },
+    {
+      "id-item": 2,
+      "size": "s",
+      "colors": "black",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
       "image": {
-        "white": "shirt2.jpg",
-        "red": "redshirt2.jpg",
-        "blue": "blueshirt2.jpg"
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
       },
-      "category": "shirts",
-      "size": [
-        "s",
-        "m",
-        "xl"
-      ],
-      "colors": [
-        "white",
-        "red",
-        "blue"
-      ],
-      "inStock": 22
+      "category": "T-short",
+      "size": "s",
+      "colors": "yellow",
+      "inStock": 0
+    },
+    {
+      "id": 5,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
+      },
+      "category": "T-short",
+      "size": "s",
+      "colors": "blue",
+      "inStock": 0
+    },
+    {
+      "id": 6,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
+      },
+      "category": "T-short",
+      "size": "s",
+      "colors": "black",
+      "inStock": 0
+    },
+    {
+      "id": 7,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
+      },
+      "category": "T-short",
+      "size": "s",
+      "colors": "white",
+      "inStock": 0
+    },
+    {
+      "id": 8,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
+      },
+      "category": "T-short",
+      "size": "xl",
+      "colors": "blue",
+      "inStock": 0,
+      "id-item": 2
+    },
+    {
+      "id": 9,
+      "title": "SHORT SLEEVE POLO WITH LUREX",
+      "price": 29,
+      "priceSale": "",
+      "image": {
+        "white": "t-shirt2.jpg",
+        "yellow": "t-shirt2.jpg",
+        "blue": "t-shirt2.jpg",
+        "black": "t-shirt2.jpg"
+      },
+      "category": "T-short",
+      "size": "m",
+      "colors": "yellow",
+      "inStock": 0,
+      "id-item": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "azizfire@mail.ru",
+      "password": "$2a$10$g64yeFaFiRmK29Iiddp5Ue.bHoAqVBljQjlZtftQRMCvnHzUl5UHy",
+      "nickname": "Ruslan",
+      "id": 1
     }
   ]
 }
